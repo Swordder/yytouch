@@ -1,0 +1,44 @@
+.aerogen_ad{
+  padding: 20px 20px 10px;
+  color: #FFFFFF;
+  background-color: #0077C8;
+  h4{
+    color: #FFFFFF;
+    font-weight: 500;
+    text-align: center;
+    position: relative;
+    margin-bottom: 8px;
+    &::after{
+      content: '';
+      display: inline-block;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: -4px;
+      width: 18px;
+      height: 3px;
+      background-color: #FFFFFF;
+    }
+  }
+  .aerogen_ad_list{
+    li{
+      margin-bottom: 15px;
+      .ad_title{
+        color: #FFD100;
+        margin-bottom: 2px;
+        span{
+          text-align: center;
+          display: inline-block;
+          width: 20px;
+          height: 20px;
+          background-color: #FFD100;
+          color: #0077C8;
+          margin-right: 8px;
+        }
+      }
+      .ad_con{
+        margin-left: 28px;
+      }
+    }
+  }
+}
